@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea8d4cf9-28bf-4d61-b6c4-b1dae9b9c060" name="Default Changelist" comment="" />
+    <list default="true" id="ea8d4cf9-28bf-4d61-b6c4-b1dae9b9c060" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TipTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tip.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TipTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TipTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,12 +21,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1upNLusboJyOR8s7esxl4PHNk4W" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,7 +42,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -38,16 +56,17 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tip">
-    <configuration name="Tip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tip" />
-      <module name="TipCalculator" />
+  <component name="RunManager" selected="JUnit.TipTest">
+    <configuration name="All in tipCLI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tipCLI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TipCalculator" />
+      <module name="tipCLI" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TipTest" />
       <option name="TEST_OBJECT" value="class" />
@@ -55,11 +74,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TipTest.diningexperiance_one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TipCalculator" />
+    <configuration name="TipTest.dinningExperiance_experience_too_high" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tipCLI" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TipTest" />
-      <option name="METHOD_NAME" value="diningexperiance_one" />
+      <option name="METHOD_NAME" value="dinningExperiance_experience_too_high" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TipTest.dinningExperience_five" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tipCLI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TipTest" />
+      <option name="METHOD_NAME" value="dinningExperience_five" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TipTest.testMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tipCLI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TipTest" />
+      <option name="METHOD_NAME" value="testMain" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -67,9 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Tip" />
         <item itemvalue="JUnit.TipTest" />
-        <item itemvalue="JUnit.TipTest.diningexperiance_one" />
+        <item itemvalue="JUnit.TipTest.testMain" />
+        <item itemvalue="JUnit.TipTest.dinningExperiance_experience_too_high" />
+        <item itemvalue="JUnit.TipTest.dinningExperience_five" />
+        <item itemvalue="JUnit.All in tipCLI" />
       </list>
     </recent_temporary>
   </component>
@@ -85,6 +126,9 @@
     <servers />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TipCalculator$TipTest.ic" NAME="TipTest Coverage Results" MODIFIED="1626466363978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TipCalculator$TipTest_dinningExperience_one.ic" NAME="TipTest.dinningExperience_one Coverage Results" MODIFIED="1626491376743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TipCalculator$TipTest_dinningExperiance_experience_too_high.ic" NAME="TipTest.dinningExperiance_experience_too_high Coverage Results" MODIFIED="1626491727852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TipCalculator$All_in_tipCLI.ic" NAME="All in tipCLI Coverage Results" MODIFIED="1626491438297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TipCalculator$TipTest.ic" NAME="TipTest Coverage Results" MODIFIED="1626492144425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

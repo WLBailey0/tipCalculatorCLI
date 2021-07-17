@@ -19,25 +19,27 @@ public class Tip {
         System.out.print("Please rate the experience on a scale of 1-5: ");
         String experienceString = scanner.nextLine();
         int dinningExperience = Integer.parseInt(experienceString);
-        System.out.printf("%.2f", tip.dinningExperiance(dinningExperience, billAmount));
+        System.out.printf("\nThe tip based on the service you received will equal $%.2f\n", tip.dinningExperience(dinningExperience, billAmount));
     }
-    public double dinningExperiance(int experiance,double billAmount ){
-        double tipAmount = 0.00;
+    public double dinningExperience(int experiance,double billAmount ){
+        double tipAmount = 1.0;
 
         switch (experiance){
-            case 1 : tipAmount = billAmount * .1;
+            case 1 : tipAmount = billAmount * .15;
             break;
-            case 2 : tipAmount = billAmount * .15;
+            case 2 : tipAmount = billAmount * .18;
             break;
             case 3 : tipAmount = billAmount * .2;
             break;
-            case 4 : tipAmount = billAmount * .25;
+            case 4 : tipAmount = billAmount * .23;
             break;
-            case 5: tipAmount = billAmount * .3;
+            case 5: tipAmount = billAmount * .25;
             break;
+            default:
+                System.out.println("Please choose a rating from 1-5");;
         }
-        double tip = tipAmount;
-        return tip;
+
+        return tipAmount;
     }
 
 }
